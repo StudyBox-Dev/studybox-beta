@@ -1,5 +1,3 @@
-// to make it run on server side a name of the file must be: '+page.server.svelte'
-
 export async function load(context) {
     const { fetch } = context;
 
