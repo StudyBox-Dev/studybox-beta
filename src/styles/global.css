@@ -1,0 +1,7 @@
+body {
+    background-color: #121212;
+}
+
+*:not(br):not(hr):not(img) {
+    color: #ffffff;
+}
