@@ -1,0 +1,50 @@
+/* Todo: check which way is faster to load font */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*:not(br):not(hr):not(img) {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 82px;
+}
+
+h2 {
+    font-size: 62px;
+}
+
+h3 {
+    font-size: 42px;
+    line-height: 50px;
+}
+
+h4 {
+    font-size: 32px;
+    line-height: 80px;
+}
+
+h5 {
+    font-size: 28px;
+    line-height: 80px;
+}
+
+h6 {
+    font-size: 22px;
+    line-height: 80px;
+}
+.dot {
+    line-height: 0;
+}
+
+.dot-max {
+    font-size: 80px;
+}
+
+.dot-mid {
+    font-size: 60px;
+}
+
+.dot-min {
+    font-size: 40px;
+}
