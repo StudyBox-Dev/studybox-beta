@@ -25,6 +25,10 @@
     justify-content: flex-end;
 }
 
+.flex-justify-between {
+    justify-content: space-between;
+}
+
 .flex-column {
     flex-direction: column;
 }
