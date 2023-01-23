@@ -2,7 +2,12 @@
 export let title = '';
 export let align = '';
 export let buttonTitle = '';
+export let actionURL = '/';
 export let color = '';
+
+const handlerClick = () => {
+    window.location.href = actionURL;
+};
 
 const props = {
     position: {
@@ -39,7 +44,7 @@ switch (align) {
             {@html title}
         </h3>
     </div>
-    <button class="border-{color}">
+    <button class="border-{color}" on:click={handlerClick}>
         {buttonTitle}
     </button>
 </div>

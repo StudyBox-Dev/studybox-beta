@@ -1,5 +1,5 @@
 <script>
-    import Button from "../lib/button.svelte";
+import Button from "../lib/button.svelte";
 </script>
 
 <div class="section section-heading flex flex-align-center flex-justify-center flex-row">
@@ -18,8 +18,8 @@
                 <span class="color-accent-extend">B</span>OX
             </h2>
             <h5 class="block-description color-main">
-                A space in which materials, manuals and personal notes on a
-                specific topic are collected.
+                A space in which materials<span class="color-accent">,</span> manuals and personal notes on a
+                specific topic are collected<span class="color-accent">.</span>
             </h5>
         </div>
         <div class="text-block flex flex-justify-start flex-row">
@@ -28,7 +28,7 @@
             </h2>
             <h5 class="block-description color-main">
                 So that we share knowledge with each other and develop in
-                interesting areas without borders.
+                interesting areas without borders<span class="color-accent">.</span>
             </h5>
         </div>
     </div>
@@ -39,10 +39,10 @@
         <span class="color-accent">T</span>AKE YOUR <span class="color-accent-extend">K</span>NOWLEDGE <span class="color-accent">N</span>OW
     </h3>
     <div class="block-buttons flex flex-align-center flex-justify-center flex-row">
-        <Button color="accent" align="top" title="<h4>SIGN <span class='color-accent'>I</span>N</h4>"/>
-        <Button color="accent-extend" align="bottom" title="<h4>SIGN <span class='color-accent-extend'>U</span>N</h4>"/>
-    </div>
-</div>
+        <Button actionURL={'/sign-in/'} color="accent" align="top" title="<h4>SIGN <span class='color-accent'>I</span>N</h4>"/>
+            <Button actionURL={'/sign-up/'} color="accent-extend" align="bottom" title="<h4>SIGN <span class='color-accent-extend'>U</span>N</h4>"/>
+                </div>
+                </div>
 
 <style>
 div.section {
