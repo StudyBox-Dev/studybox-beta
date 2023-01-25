@@ -71,4 +71,13 @@ button {
     border-radius: 10px;
     background: #1f1f1f;
 }
+
+@media screen and (min-width: 100px) and (max-width: 1140px) {
+    button {
+        width: 100px;
+        height: 200px;
+
+        border-width: 3px;
+    }
+}
 </style>
