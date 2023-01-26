@@ -6,7 +6,7 @@
     class="section section-heading flex flex-align-center flex-justify-center flex-row"
 >
     <div class="heading-text flex flex-column">
-        <h1>
+        <h1 class="study-box-title">
             <span class="color-accent">STUDY</span><span
                 class="color-accent-extend">BOX</span
             >
@@ -112,7 +112,7 @@
     }
 
     .block-description {
-        width: 40vw;
+        width: 50vw;
     }
 
     .description-title {
@@ -133,6 +133,11 @@
         div.section {
             flex-direction: column;
             gap: 20vw !important;
+        }
+
+        .study-box-title,
+        .tagline {
+            text-align: center;
         }
 
         div.heading-text,
