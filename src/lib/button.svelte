@@ -40,7 +40,7 @@ switch (align) {
 
 <div class="block-button flex {props.position.block.align} {props.position.block.justify} flex-row">
     <div class="container-title flex {props.position.title.align} {props.position.title.justify}">
-        <h3 class="title">
+        <h3 class="color-main title">
             {@html title}
         </h3>
     </div>
