@@ -4,9 +4,9 @@
 @import url('./flex.css');
 
 body {
-    background-color: #121212;
+    background-color: var(--background);
 }
 
-*:not(br):not(hr):not(img) {
+/* *:not(br):not(hr):not(img) {
     color: #ffffff;
-}
+} */

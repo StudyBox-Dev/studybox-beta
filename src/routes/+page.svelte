@@ -30,10 +30,10 @@
 >
     <div class="description-text flex flex-column">
         <div class="text-block flex flex-justify-start flex-row">
-            <h2 class="description-title flex flex-justify-end">
+            <h2 class="color-main description-title flex flex-justify-end">
                 <span class="color-accent-extend">B</span>OX
             </h2>
-            <h5 class="block-description color-main">
+            <h5 class="color-main block-description">
                 A space in which materials<span class="color-accent">,</span>
                 manuals and personal notes on a specific topic are collected<span
                     class="color-accent">.</span
@@ -41,10 +41,10 @@
             </h5>
         </div>
         <div class="text-block flex flex-justify-start flex-row">
-            <h2 class="description-title flex flex-justify-end">
+            <h2 class="color-main description-title flex flex-justify-end">
                 <span class="color-accent-extend">W</span>HY
             </h2>
-            <h5 class="block-description color-main">
+            <h5 class="color-main block-description">
                 So that we share knowledge with each other and develop in
                 interesting areas without borders<span class="color-accent"
                     >.</span
@@ -65,7 +65,7 @@
     flex-justify-center
     flex-column"
 >
-    <h3 class="title-buttons">
+    <h3 class="color-main title-buttons">
         <span class="color-accent">T</span>AKE YOUR
         <span class="color-accent-extend">K</span>NOWLEDGE
         <span class="color-accent">N</span>OW

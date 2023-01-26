@@ -1,33 +1,121 @@
+:root {
+    /* Light color set */
+    --text-color-light: #121212;
+    --text-color-extend-light: #FFFFFF;
+    --text-color-accent-light: #FF28D0;
+    --text-color-accent-extend-light: #3632FF;
+
+    --background-light: #FFFFFF;
+    --background-accent-light: #FF28D0;
+    --background-accent-extend-light: #3632FF;
+
+    --background-item-light: #EDEDED;
+    --background-item-extend-light: #D7D7D7;
+
+    /* Dark color set */
+    --text-color-dark: #FFFFFF;
+    --text-color-extend-dark: #121212;
+    --text-color-accent-dark: #FF28D0;
+    --text-color-accent-extend-dark: #FBFF32;
+
+    --background-dark: #121212;
+    --background-accent-dark: #FF28D0;
+    --background-accent-extend-dark: #FBFF32;
+
+    --background-item-dark: #1F1F1F;
+    --background-item-extend-dark: #363636;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --text-color: var(--text-color-light);
+        --text-color-extend: var(--text-color-extend-light);
+        --text-color-accent: var(--text-color-accent-light);
+        --text-color-accent-extend: var(--text-color-accent-extend-light);
+    
+        --background: var(--background-light);
+        --background-accent: var(--background-accent-light);
+        --background-accent-extend: var(--background-accent-extend-light);
+    
+        --background-item: var(--background-item-light);
+        --background-item-extend: var(--background-item-extend-light);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: var(--text-color-dark);
+        --text-color-extend: var(--text-color-extend-dark);
+        --text-color-accent: var(--text-color-accent-dark);
+        --text-color-accent-extend: var(--text-color-accent-extend-dark);
+    
+        --background: var(--background-dark);
+        --background-accent: var(--background-accent-dark);
+        --background-accent-extend: var(--background-accent-extend-dark);
+    
+        --background-item: var(--background-item-dark);
+        --background-item-extend: var(--background-item-extend-dark);
+    }
+}
+
+[color-scheme="light"] {
+    --text-color: var(--text-color-light);
+    --text-color-extend: var(--text-color-extend-light);
+    --text-color-accent: var(--text-color-accent-light);
+    --text-color-accent-extend: var(--text-color-accent-extend-light);
+
+    --background: var(--background-light);
+    --background-accent: var(--background-accent-light);
+    --background-accent-extend: var(--background-accent-extend-light);
+
+    --background-item: var(--background-item-light);
+    --background-item-extend: var(--background-item-extend-light);
+}
+
+[color-scheme="dark"] {
+    --text-color: var(--text-color-dark);
+    --text-color-extend: var(--text-color-extend-dark);
+    --text-color-accent: var(--text-color-accent-dark);
+    --text-color-accent-extend: var(--text-color-accent-extend-dark);
+
+    --background: var(--background-dark);
+    --background-accent: var(--background-accent-dark);
+    --background-accent-extend: var(--background-accent-extend-dark);
+
+    --background-item: var(--background-item-dark);
+    --background-item-extend: var(--background-item-extend-dark);
+}
+
 .color-main {
-    color: #FFFFFF;
+    color: var(--text-color);
 }
 
 .color-accent {
-    color: #FF28D0;
+    color: var(--text-color-accent);
 }
 
 .color-accent-extend {
-    color: #FBFF32;
+    color: var(--text-color-accent-extend);
 }
 
 .border-accent {
-    border-color: #FF28D0;
+    border-color: var(--background-accent);
     transition: all 0.6s ease-in-out;
 }
 
 .border-accent:hover,
 .border-accent:active {
-    box-shadow: 0px 0px 40px 2px #FF28D0;
+    box-shadow: 0px 0px 40px 2px var(--background-accent);
     transition: all 0.2s linear;
 }
 
 .border-accent-extend {
-    border-color: #FBFF32;
+    border-color: var(--background-accent-extend);
     transition: all 0.6s ease-in-out;
 }
 
 .border-accent-extend:hover,
 .border-accent-extend:active {
-    box-shadow: 0px 0px 40px 2px #FBFF32;
+    box-shadow: 0px 0px 40px 2px var(--background-accent-extend);
     transition: all 0.2s linear;
 }
