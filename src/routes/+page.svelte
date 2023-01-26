@@ -52,11 +52,11 @@
             </h5>
         </div>
     </div>
-    <img
+    <!-- <img
         src="/box-light.svg"
         alt="logo (box glowing from the inside)"
         srcset=""
-    />
+    /> -->
 </div>
 <div
     class="section section-buttons
@@ -65,7 +65,7 @@
     flex-justify-center
     flex-column"
 >
-    <h3>
+    <h3 class="title-buttons">
         <span class="color-accent">T</span>AKE YOUR
         <span class="color-accent-extend">K</span>NOWLEDGE
         <span class="color-accent">N</span>OW
@@ -95,6 +95,40 @@
         gap: 8vw;
     }
 
+    div.section-buttons {
+        gap: 4vw;
+    }
+
+    div.heading-text {
+        gap: 30px;
+    }
+
+    .tagline {
+        width: 350px;
+    }
+
+    div.description-text {
+        gap: 10vh;
+    }
+
+    .block-description {
+        width: 40vw;
+    }
+
+    .description-title {
+        width: 100px;
+        height: 100px;
+        transform: rotate(-90deg);
+    }
+
+    div.block-buttons {
+        gap: 10vw;
+    }
+
+    .title-buttons {
+        text-align: center;
+    }
+
     @media screen and (min-width: 100px) and (max-width: 1140px) {
         div.section {
             flex-direction: column;
@@ -114,31 +148,10 @@
         div.description-text {
             gap: 10vh;
         }
-    }
 
-    div.section-buttons {
-        gap: 4vw;
-    }
-
-    div.heading-text {
-        gap: 30px;
-    }
-
-    .tagline {
-        width: 350px;
-    }
-
-    div.description-text {
-        gap: 10vh;
-    }
-
-    .description-title {
-        width: 100px;
-        height: 100px;
-        transform: rotate(-90deg);
-    }
-
-    div.block-buttons {
-        gap: 10vw;
+        .description-title {
+            width: 50px;
+            height: 80px;
+        }
     }
 </style>
