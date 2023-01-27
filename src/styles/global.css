@@ -11,9 +11,3 @@ body {
 *:not(br):not(hr):not(img) {
     color: #ffffff;
 }
-
-.container-title {
-    width: 40px;
-    height: 40px;
-    transform: rotate(-90deg);
-}
