@@ -33,6 +33,10 @@
     flex-direction: column;
 }
 
+.flex-row{
+    flex-direction: row;
+}
+
 .flex-row {
     flex-direction: row;
 }

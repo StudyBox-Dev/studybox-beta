@@ -78,12 +78,16 @@
             color="accent"
             align="top"
             title="<h4>SIGN <span class='color-accent'>I</span>N</h4>"
+            cssStyleHorizzontal="main-page-btn"
+            containerTitle="container-title"
         />
         <Button
             actionURL={"/sign-up/"}
             color="accent-extend"
             align="bottom"
             title="<h4>SIGN <span class='color-accent-extend'>U</span>N</h4>"
+            cssStyleHorizzontal="main-page-btn"
+            containerTitle="container-title"
         />
     </div>
 </div>
